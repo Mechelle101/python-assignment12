@@ -13,9 +13,6 @@ countries = df["country"].drop_duplicates()
 app = Dash(__name__)
 server = app.server 
 
-# Initialize Dash app
-app = Dash(__name__)
-
 # Layout
 app.layout = html.Div([
   dcc.Dropdown(
