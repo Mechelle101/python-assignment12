@@ -9,6 +9,10 @@ df = pldata.gapminder(return_type='pandas')
 # Task 4: creating a series of unique countries removing duplicates
 countries = df["country"].drop_duplicates()
 
+# Task 5: deploy to render.com
+app = Dash(__name__)
+server = app.server 
+
 # Initialize Dash app
 app = Dash(__name__)
 
@@ -52,8 +56,3 @@ def update_graph(country):
 # Run the app
 if __name__ == "__main__": 
     app.run(debug=True)
-    
-    
-# Task 5: deploy to render.com
-app = Dash(__name__)
-server = app.server 
