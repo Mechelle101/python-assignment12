@@ -1,0 +1,6 @@
+
+Static visualizations are quick to create and useful for reports, but they only show what the author wants to present. Interactive visualizations allow users to explore the data themselves through features like hover details, zooming and filtering.
+
+Dashboards are valuable because they combine multiple views of data into a single interface and allow real time interactions. Users can adjust inputs like dropdowns and immediately see updated results, which makes analysis faster and more flexible. 
+
+Interactive tools like plotly and dash improve professional data communication by making insights easier to understand and explore. They reduce the need for repeated requests for new charts and allow stakeholders to engage directly with the data. 
